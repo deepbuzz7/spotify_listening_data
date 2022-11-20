@@ -1,0 +1,2 @@
+check_whether_table_is_present_or_not="select * from information_schema.tables where table_name='{table_name}'"
+create_secrets_table="CREATE TABLE spotify_listening_data.public.secrets (secret_key VARCHAR(50), secret_value text, updated_on timestamp)"
